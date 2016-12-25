@@ -1,0 +1,21 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             tools:context="maxiaobu.mqldialoglibrary.dialog.MQLLoadingFragment"
+             android:orientation="vertical"
+             android:background="#00FFFFFF"
+             android:gravity="center"
+
+    >
+
+    <maxiaobu.mqldialoglibrary.circleprogressbar.CircleProgressBar
+        android:layout_marginTop="4dp"
+        android:id="@+id/loading_bar"
+        app:mlpb_progress_color="#327643"
+        app:mlpb_show_arrow ="true"
+        android:layout_width="50dip"
+        android:layout_height="50dip" />
+
+</FrameLayout>
